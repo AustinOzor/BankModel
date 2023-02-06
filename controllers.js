@@ -1,3 +1,4 @@
+const BankModel = require('./model')
 //controllers list
 const listBanksController = (req, res) => {
     //list banks

@@ -1,4 +1,4 @@
-const banksDb = require('./db');
+let banksDb = require('./db');
 //bank model
 class BankModel {
     constructor({ name, branch, location, phone, address, accountNumber }){
@@ -40,4 +40,4 @@ class BankModel {
     }
 }
 
-module.exports = model
+module.exports = BankModel 

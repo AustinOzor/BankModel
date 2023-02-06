@@ -1,7 +1,8 @@
 //import express and body-parser
-const express = require('express')
-const bodyParser = require('body-parser')
-const banksDb = require('./db')
+const express = require('express');
+const bodyParser = require('body-parser');
+
+
 const {listBanksController, createBankController, deleteBankController, updateBankController} = require('./controllers')
 //create express server
 const server = express('server')
